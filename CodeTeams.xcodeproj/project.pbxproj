@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224C2B2626AA84AA00F866FB /* TeammateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C2B2526AA84AA00F866FB /* TeammateDetail.swift */; };
+		2266CA3626AA6E84001A43F9 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266CA3526AA6E84001A43F9 /* TeamList.swift */; };
+		2266CA3826AA7FCC001A43F9 /* TeammateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266CA3726AA7FCC001A43F9 /* TeammateRow.swift */; };
 		2266D31326A8AADB0002E8D5 /* CodeTeamsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266D31226A8AADB0002E8D5 /* CodeTeamsApp.swift */; };
 		2266D31526A8AADB0002E8D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266D31426A8AADB0002E8D5 /* ContentView.swift */; };
 		2266D31726A8AADC0002E8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2266D31626A8AADC0002E8D5 /* Assets.xcassets */; };
 		2266D31A26A8AADC0002E8D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2266D31926A8AADC0002E8D5 /* Preview Assets.xcassets */; };
+		2266D32226A8ABB60002E8D5 /* Teammate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266D32126A8ABB60002E8D5 /* Teammate.swift */; };
+		2266D32426A8AC420002E8D5 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266D32326A8AC420002E8D5 /* TeamData.swift */; };
+		2266D32626A8B2110002E8D5 /* AddTeammateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266D32526A8B2110002E8D5 /* AddTeammateForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224C2B2526AA84AA00F866FB /* TeammateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateDetail.swift; sourceTree = "<group>"; };
+		2266CA3526AA6E84001A43F9 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		2266CA3726AA7FCC001A43F9 /* TeammateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateRow.swift; sourceTree = "<group>"; };
 		2266D30F26A8AADB0002E8D5 /* CodeTeams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTeams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2266D31226A8AADB0002E8D5 /* CodeTeamsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTeamsApp.swift; sourceTree = "<group>"; };
 		2266D31426A8AADB0002E8D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2266D31626A8AADC0002E8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2266D31926A8AADC0002E8D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2266D31B26A8AADC0002E8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2266D32126A8ABB60002E8D5 /* Teammate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teammate.swift; sourceTree = "<group>"; };
+		2266D32326A8AC420002E8D5 /* TeamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
+		2266D32526A8B2110002E8D5 /* AddTeammateForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeammateForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224C2B2726AA91FD00F866FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2266D32126A8ABB60002E8D5 /* Teammate.swift */,
+				2266D32326A8AC420002E8D5 /* TeamData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		224C2B2826AA920600F866FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2266D31426A8AADB0002E8D5 /* ContentView.swift */,
+				2266CA3526AA6E84001A43F9 /* TeamList.swift */,
+				224C2B2526AA84AA00F866FB /* TeammateDetail.swift */,
+				2266CA3726AA7FCC001A43F9 /* TeammateRow.swift */,
+				2266D32526A8B2110002E8D5 /* AddTeammateForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2266D30626A8AADB0002E8D5 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				2266D31226A8AADB0002E8D5 /* CodeTeamsApp.swift */,
-				2266D31426A8AADB0002E8D5 /* ContentView.swift */,
+				224C2B2826AA920600F866FB /* Views */,
+				224C2B2726AA91FD00F866FB /* Models */,
 				2266D31626A8AADC0002E8D5 /* Assets.xcassets */,
 				2266D31B26A8AADC0002E8D5 /* Info.plist */,
 				2266D31826A8AADC0002E8D5 /* Preview Content */,
@@ -138,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224C2B2626AA84AA00F866FB /* TeammateDetail.swift in Sources */,
+				2266D32626A8B2110002E8D5 /* AddTeammateForm.swift in Sources */,
 				2266D31526A8AADB0002E8D5 /* ContentView.swift in Sources */,
+				2266CA3826AA7FCC001A43F9 /* TeammateRow.swift in Sources */,
+				2266CA3626AA6E84001A43F9 /* TeamList.swift in Sources */,
 				2266D31326A8AADB0002E8D5 /* CodeTeamsApp.swift in Sources */,
+				2266D32426A8AC420002E8D5 /* TeamData.swift in Sources */,
+				2266D32226A8ABB60002E8D5 /* Teammate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
